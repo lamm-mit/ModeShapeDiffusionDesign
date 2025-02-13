@@ -1,9 +1,13 @@
 # VibeGen: End-to-end de novo protein generation targeting normal mode vibrations using a language diffusion model duo
 
 Bo Ni<sup>1,2</sup>, Markus J. Buehler<sup>1,3,4*</sup>
+
 <sup>1</sup> Laboratory for Atomistic and Molecular Mechanics (LAMM), Massachusetts Institute of Technology
+
 <sup>2</sup> Department of Materials Science and Engineering, Carnegie Mellon University
+
 <sup>3</sup> Center for Computational Science and Engineering, Schwarzman College of Computing, Massachusetts Institute of Technology
+
 <sup>4</sup>Lead contact
 
 *Correspondence: mbuehler@MIT.EDU
@@ -73,6 +77,7 @@ demo_1_inference_with_trained_duo.ipynb
 ```
 
 Alternatively, similar demo can run using Colab.
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lamm-mit/ModeShapeDiffusionDesign/blob/main/colab_demo/Inference_demo.ipynb)
 
 ### Pretrained models
@@ -91,3 +96,5 @@ The checkpoints of the pretrained model duo is hosted at the [repository](https:
     url = {ZZZ}
 }
 ```
+
+Our implementation is inspired by the [imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) repository by [Phil Wang](https://github.com/lucidrains).
