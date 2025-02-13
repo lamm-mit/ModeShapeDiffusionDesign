@@ -8,9 +8,9 @@ Bo Ni<sup>1,2</sup>, Markus J. Buehler<sup>1,3,4*</sup>
 
 <sup>3</sup> Center for Computational Science and Engineering, Schwarzman College of Computing, Massachusetts Institute of Technology
 
-<sup>4</sup>Lead contact
+<sup>4</sup> Lead contact
 
-*Correspondence: mbuehler@MIT.EDU
+<sup>*</sup> Correspondence: mbuehler@MIT.EDU
 
 Rarely being static, natural proteins often rely on dynamic motions to achieve key biological functions, such as enzymatic activity, signal transduction and structural regulation. However, it remains challenging to grasp the direct link between sequences and dynamics of natural proteins or design proteins beyond nature based on their dynamical signature. Here, we report a generative duo of protein language diffusion models that generate proteins to meet the specified normal mode of vibration as design goals. Consisting of a protein designer and a predictor, our duo designs ensemble of various protein sequences based on the given normal mode and predicts their vibrations to select the accurate ones, aiming at both diversity and accuracy. Via full-atom molecular simulations for direct validation, we demonstrate the generated proteins are mostly de novo and fulfill the targeted vibrational mode across the residues of the backbone. Our models provide end-to-end connections between protein sequences and vibrational motions in both directions, offer efficient pathways to navigate the broad protein sequence space unconstrained by biological synthesis, and enable the discovery of flexible proteins with desired dynamic properties and biological functions.
 
