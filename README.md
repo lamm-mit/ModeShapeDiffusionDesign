@@ -87,13 +87,13 @@ The checkpoints of the pretrained model duo is hosted at the [repository](https:
 
 ```bibtex
 @paper{BoBuehler2025VibeGen,
-    author = {Ni, Bo and Buehler, Markus J.},
-    title = {VibeGen: End-to-end de novo protein generation targeting normal mode vibrations using a language diffusion model duo},
-    year = {2025},
-    eprint = {XXX.YYYYY},
-    archivePrefix = {arXiv},
-    doi = {ZZZ},
-    url = {ZZZ}
+      title={Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model}, 
+      author={Bo Ni and Markus J. Buehler},
+      year={2025},
+      eprint={2502.10173},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.BM},
+      url={https://arxiv.org/abs/2502.10173}, 
 }
 ```
 
