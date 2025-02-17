@@ -97,4 +97,4 @@ The checkpoints of the pretrained model duo is hosted at the [repository](https:
 }
 ```
 
-> - Our implementation is inspired by the [imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) repository by [Phil Wang](https://github.com/lucidrains).
+Our implementation is inspired by the [imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) repository by [Phil Wang](https://github.com/lucidrains).
