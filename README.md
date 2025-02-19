@@ -81,7 +81,7 @@ Alternatively, similar demo can run using Colab.
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lamm-mit/ModeShapeDiffusionDesign/blob/main/colab_demo/Inference_demo.ipynb)
 
 ### Pretrained models
-The checkpoints of the pretrained model duo is hosted at the [repository](https://huggingface.co/lamm-mit/VibeGen) on Huggingface.
+The checkpoints of the pretrained models that make up the agentic system is hosted at the [repository](https://huggingface.co/lamm-mit/VibeGen) on Huggingface.
 
 ### Reference
 
