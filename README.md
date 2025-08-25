@@ -1,4 +1,4 @@
-# VibeGen: End-to-end de novo protein generation targeting normal mode vibrations using a language diffusion model duo
+# VibeGen: Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model 
 
 Bo Ni<sup>1,2</sup>, Markus J. Buehler<sup>1,3,4*</sup>
 
@@ -12,7 +12,7 @@ Bo Ni<sup>1,2</sup>, Markus J. Buehler<sup>1,3,4*</sup>
 
 <sup>*</sup> Correspondence: mbuehler@MIT.EDU
 
-Rarely being static, natural proteins often rely on dynamic motions to achieve key biological functions, such as enzymatic activity, signal transduction and structural regulation. However, it remains challenging to grasp the direct link between sequences and dynamics of natural proteins or design proteins beyond nature based on their dynamical signature. Here, we report a generative duo of protein language diffusion models that generate proteins to meet the specified normal mode of vibration as design goals. Consisting of a protein designer and a predictor, our duo designs ensemble of various protein sequences based on the given normal mode and predicts their vibrations to select the accurate ones, aiming at both diversity and accuracy. Via full-atom molecular simulations for direct validation, we demonstrate the generated proteins are mostly de novo and fulfill the targeted vibrational mode across the residues of the backbone. Our models provide end-to-end connections between protein sequences and vibrational motions in both directions, offer efficient pathways to navigate the broad protein sequence space unconstrained by biological synthesis, and enable the discovery of flexible proteins with desired dynamic properties and biological functions.
+Proteins are dynamic molecular machines whose biological functions, spanning enzymatic catalysis, signal transduction, and structural adaptation, are intrinsically linked to their motions. We introduce VibeGen, a generative AI model based on an agentic dual-model architecture, comprising a protein designer that generates sequence candidates based on specified vibrational modes and a protein predictor that evaluates their dynamic accuracy. Via direct validation using full-atom molecular simulations, we demonstrate that the designed proteins accurately reproduce the prescribed normal mode amplitudes across the backbone while adopting various stable, functionally relevant structures. Generated sequences are de novo, exhibiting no significant similarity to natural proteins, thereby expanding the accessible protein space beyond evolutionary constraints. Our model establishes a direct, bidirectional link between sequence and vibrational behavior, unlocking new pathways for engineering biomolecules with tailored dynamical and functional properties. Our model holds broad implications for the rational design of enzymes, dynamic scaffolds, and biomaterials via dynamics-informed protein engineering.
 
 ![plot](./assets/TOC.svg)
 
@@ -87,7 +87,7 @@ The checkpoints of the pretrained models that make up the agentic system is host
 
 ```bibtex
 @paper{BoBuehler2025VibeGen,
-      title={Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model}, 
+      title={VibeGen: Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model}, 
       author={Bo Ni and Markus J. Buehler},
       year={2025},
       eprint={2502.10173},
