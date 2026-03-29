@@ -86,7 +86,19 @@ The checkpoints of the pretrained models that make up the agentic system is host
 ### Reference
 
 ```bibtex
-@paper{BoBuehler2025VibeGen,
+@article{NiBuehler2026VibeGen,
+      title = {VibeGen: Agentic end-to-end de novo protein design for tailored dynamics using a language diffusion model},
+      author = {Bo Ni and Markus J. Buehler},
+      journal = {Matter},
+      pages = {102706},
+      year = {2026},
+      issn = {2590-2385},
+      doi = {https://doi.org/10.1016/j.matt.2026.102706},
+      url = {https://www.sciencedirect.com/science/article/pii/S259023852600069X},
+      keywords = {protein design, protein dynamics, generative AI, agentic collaboration, language diffusion model,  proteins, normal mode},
+}
+
+@paper{NiBuehler2025VibeGen,
       title={VibeGen: Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model}, 
       author={Bo Ni and Markus J. Buehler},
       year={2025},
