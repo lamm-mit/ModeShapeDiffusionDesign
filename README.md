@@ -53,7 +53,11 @@ ModeShapeDiffusionDesign/
 │   ├── UtilityPack.py
 │   ├── JointSamplingPack.py
 │   └── ...
-│
+|
+├── Protein Dynamics Visualization Code/
+│   ├── Protein Dynamics Notebook.ipynb         # Notebook to compute and visualize normal modes
+|
+|
 ├── demo_1_Inferrence_with_trained_duo.ipynb    # demo 1: make an inference
 │
 ├── colab_demo/                                 # demos for colab
@@ -85,7 +89,7 @@ The checkpoints of the pretrained models that make up the agentic system is host
 
 ### Sample results
 
-Sample results of proteins designed using VibeGen, as presented in the paper. This [notebook](Protein Dynamics Visualization Code/Protein Dynamics Notebook.ipynb) was used to generate the movies and analyses. 
+Sample results of proteins designed using VibeGen, as presented in the paper. This ([notebook](https://github.com/lamm-mit/ModeShapeDiffusionDesign/blob/main/Protein%20Dynamics%20Visualization%20Code/Protein%20Dynamics%20Notebook.ipynb)) was used to generate the movies and analyses. 
 
 <img width="720" height="720" alt="Fig_4_B_multimode" src="https://github.com/user-attachments/assets/cfce3bc7-5550-455a-92fc-88b888890996" />
 <img width="720" height="720" alt="Fig_4_D_multimode" src="https://github.com/user-attachments/assets/e7b51f95-802b-48a5-94f5-8ae3cdd81474" />
