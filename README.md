@@ -83,7 +83,15 @@ Alternatively, similar demo can run using Colab.
 ### Pretrained models
 The checkpoints of the pretrained models that make up the agentic system is hosted at the [repository](https://huggingface.co/lamm-mit/VibeGen) on Huggingface.
 
-### Reference
+### Sample results
+
+<img width="720" height="720" alt="Fig_4_B_multimode" src="https://github.com/user-attachments/assets/cfce3bc7-5550-455a-92fc-88b888890996" />
+<img width="720" height="720" alt="Fig_4_D_multimode" src="https://github.com/user-attachments/assets/e7b51f95-802b-48a5-94f5-8ae3cdd81474" />
+<img width="720" height="720" alt="Fig_4_A_multimode" src="https://github.com/user-attachments/assets/796f7bd3-4b5d-41ac-8305-77e8c3fbcedf" />
+<img width="720" height="720" alt="Fig_4_F_multimode" src="https://github.com/user-attachments/assets/ce712403-ac45-45a4-a1fe-49ae62684b97" />
+
+
+### References
 
 ```bibtex
 @article{NiBuehler2026VibeGen,
